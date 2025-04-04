@@ -27,7 +27,7 @@ function main() {
   calculate();
 }
 
-function inforSwap() {
+function infoSwap() {
   let temp = label_from_currency.value;
   label_from_currency.value = label_to_currency.value;
   label_to_currency.value = temp;
