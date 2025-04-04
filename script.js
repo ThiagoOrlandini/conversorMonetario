@@ -20,10 +20,10 @@ function main() {
   let currency = { "BRL": "Real", "EUR": "Euro", "USD": "Dollar" };
   let options = [];
   for (var [key, value] of Object.entries(currency)) {
-    options.push('<option value='${key}'>${value}</option>');
+    options.push(`<option value='${key}'>${value}</option>`);
   }
   label_from_currency.innterHTML = options.join('\n');
-  label_to_currency.innerHTML = options.join('\n);
+  label_to_currency.innerHTML = options.join('\n');
   calculate();
 }
 
