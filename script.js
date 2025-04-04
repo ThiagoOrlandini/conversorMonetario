@@ -22,7 +22,7 @@ function main() {
   for (var [key, value] of Object.entries(currency)) {
     options.push(`<option value='${key}'>${value}</option>`);
   }
-  label_from_currency.innterHTML = options.join('\n');
+  label_from_currency.innerHTML = options.join('\n');
   label_to_currency.innerHTML = options.join('\n');
   calculate();
 }
