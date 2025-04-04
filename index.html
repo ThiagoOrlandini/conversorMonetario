@@ -11,9 +11,17 @@
     <img src="https://i.postimg.cc/GpCxYmvc/title.png" alt="Logo" class="logo">
     <div class="container">
       <div class="content">
-        <h2>Quem ganha, ganha em Wons!</h2>
+        <h2>Converter Moeda</h2>
         <p> Que tal converter esse valor?</p>
-        <button onclick="conversor()">Bora converter!</button>
+        <span id="tax_info"></span>
+        <div>
+          <select id="from_currency"></select>
+          <input type="number" id="from_ammount" value="1" />
+      </div>
+      <button id="swap"> ⇅ </button>
+      <div>
+        <select id="to_currency"></select>
+        <input type="number" id="to_ammount" />
       </div>
     </div>
     <footer>Alura - Imersão DEV - 2025</footer>
